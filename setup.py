@@ -14,7 +14,7 @@ setuptools.setup(
         'imageio>=2.31.3',
         'kornia>=0.7.0',
         'matplotlib>=3.7.1',
-        'numpy>=1.26.4',
+        'numpy==1.26.4',
         'opencv-python==4.11.0.86',
         'Pillow>=9.4.0',
         'requests>=2.31.0',
