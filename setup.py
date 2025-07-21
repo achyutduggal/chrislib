@@ -10,19 +10,19 @@ setuptools.setup(
     license="",
     python_requires=">3.6",
     install_requires=[
-        'beautifulsoup4>=4.11.2',
-        'imageio>=2.31.3',
-        'kornia>=0.7.0',
-        'matplotlib>=3.7.1',
+        'beautifulsoup4==4.11.2',
+        'imageio==2.31.3',
+        'kornia==0.7.0',
+        'matplotlib==3.7.1',
         'numpy==1.26.4',
         'opencv-python==4.11.0.86',
-        'Pillow>=9.4.0',
-        'requests>=2.31.0',
-        'scikit-image>=0.19.3',
-        'scipy>=1.10.1',
-        'torch>=2.0.1',
-        'torchvision>=0.15.2',
-        'tqdm>=4.66.1',
-        'gdown>=4.7.1'
+        'Pillow==9.4.0',
+        'requests==2.31.0',
+        'scikit-image==0.19.3',
+        'scipy==1.10.1',
+        'torch==2.0.1',
+        'torchvision==0.15.2',
+        'tqdm==4.66.1',
+        'gdown==4.7.1'
     ]
 )
