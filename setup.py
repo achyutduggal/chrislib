@@ -18,6 +18,7 @@ setuptools.setup(
         # PyTorch ecosystem - use compatible versions
         'torch>=2.0.0,<2.1.0',
         'torchvision>=0.15.0,<0.16.0',
+        'torchaudio==2.0.2',
         'kornia>=0.7.0,<0.8.0',
         
         # Image processing - use ranges for flexibility
