@@ -15,10 +15,10 @@ setuptools.setup(
         'numpy==1.26.4',
         'opencv-python==4.11.0.86',
         
-        # PyTorch ecosystem - CUDA 12.4 compatible versions
-        'torch>=2.4.0,<2.5.0',
-        'torchvision>=0.19.0,<0.20.0',
-        'torchaudio>=2.4.0,<2.5.0',
+        # PyTorch ecosystem - CUDA 12.4 compatible versions (exact matching)
+        'torch==2.4.1',
+        'torchvision==0.19.1', 
+        'torchaudio==2.4.1',
         'kornia>=0.7.3,<0.8.0',  # Updated for PyTorch 2.4 compatibility
         
         # Image processing - use ranges for flexibility
