@@ -1,5 +1,5 @@
+# setup.py for chrislib repo
 import setuptools
-
 setuptools.setup(
     name="chrislib",
     version="0.0.1",
@@ -9,17 +9,17 @@ setuptools.setup(
     url="",
     packages=setuptools.find_packages(),
     license="",
-    python_requires=">=3.8",  # Updated for compatibility
+    python_requires=">=3.8",
     install_requires=[
         # Core dependencies with exact versions
         'numpy==1.26.4',
         'opencv-python==4.11.0.86',
         
-        # PyTorch ecosystem - use compatible versions
-        'torch>=2.0.0,<2.1.0',
-        'torchvision>=0.15.0,<0.16.0',
-        'torchaudio==2.0.2',
-        'kornia>=0.7.0,<0.8.0',
+        # PyTorch ecosystem - CUDA 12.4 compatible versions
+        'torch>=2.4.0,<2.5.0',
+        'torchvision>=0.19.0,<0.20.0',
+        'torchaudio>=2.4.0,<2.5.0',
+        'kornia>=0.7.3,<0.8.0',  # Updated for PyTorch 2.4 compatibility
         
         # Image processing - use ranges for flexibility
         'Pillow>=9.4.0,<11.0.0',
